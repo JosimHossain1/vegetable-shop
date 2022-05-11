@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --green: green;
+    --gray: gray;
+    --white: white;
+}
+
+/* default code */
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* Navbar start here */
+
+.logo a span {
+    font-size: 50px;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* hero area start here */
+.hero {
+    background-image: url('img/cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero .content h4 {
+    font-size: 30px;
+}
+
+/* Services Section Start here */
+
+.services {
+    padding: 30px 0px;
+}
+
+.services img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5%;
+    margin-right: 15px;
+}
+
+/* product */
+
+#shop {
+    padding: 50px 0px;
+}
+
+#shop .product img {
+    width: 200px;
+}
+
+/* Discount */
+
+#discount {
+    background-image: url("img/discountBanner.jpg");
+    height: 250px;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+}
+
+#blog .blog-box img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#blog p {
+    font-size: 16px;
+}
+
+#blog a {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* Brand */
+
+#brand img {
+    opacity: 0.5;
+    transition: 0.4s all ease;
+}
+
+#brand img:hover {
+    opacity: 1;
+}
+
+/* Top footer */
+#top-footer ul li {
+    color: gray;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#top-footer ul li a {
+    color: var(--gray);
+
+}
+
+footer {
+    background-color: #151831;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+
+    .services .d-flex {
+        border: 1px solid var(--green);
+        width: 90%;
+        padding: 6px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+}
