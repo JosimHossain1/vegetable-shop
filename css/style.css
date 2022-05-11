@@ -19,8 +19,24 @@ ul li {
     list-style-type: none;
 }
 
-/* Navbar start here */
+/* Top bar */
 
+.topbar{
+    height: 100%;
+}
+
+/* Navbar start here */
+header{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
 .logo a span {
     font-size: 50px;
 }
